@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vorskins | Skin Care E-commerce</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    
+    <section id="header">
+      <a href="#">
+        <img src="./images/logo.png" width="50vw" class="logo" />
+      </a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a  href="promotions.html">Promotions</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+          <li id="lg-bag">
+            <a href=""><img src="./images/cart-shopping.png" width="20wh" /></a>
+          </li>
+          <a id="close">X</a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a id=""><img src="./images/cart-shopping.png" width="15wh" /></a>
+        <a id="bar"><img src="./images/outdent.png" width="15vw" /></a>
+      </div>
+    </section>
+
+<body>
+  <div class="checkout">
+    <h1>You are about to checkout with your item</h1>
+    <h3>Before doing that please fill out this form for the payment process</h3>
+  </div>
+    <div class="box">
+        
+          <label for="fname">Full Name</label>
+          <input type="text" placeholder="Your full name..">
+      
+          <label for="eaddress">Address</label>
+          <input type="text" placeholder="Your  address..">
+      
+          <label for="Preference">Payment Method</label>
+          <select id="Preference">
+            <option value="COD">Cash On Delivery (COD)</option>
+            <option value="GoPay">GoPay</option>
+            <option value="OVO">OVO</option>
+            
+          </select>
+
+          <br><br>
+      
+          <button class="normal" id="checkout2" onclick="displaymodal()" >Checkout</button>
+        <div id="modal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Thank You for buying our products!</p>
+                  <button class="normal" id="backhome">Back to home</button>
+                </div>
+
+            </div>
+      </div>
+      <footer class="foot-p1">
+        <div class="coll">
+          <img class="logofoot" src="./images/logo.png" width="" />
+          <h4>Contact</h4>
+          <p>
+            <strong>Address:</strong> Kav 21, Alam Sutera Jalan Jalur Sutera Barat
+          </p>
+          <p><strong>Phone:</strong> +62 271 4928490</p>
+          <div class="social">
+            <h4>Follow Us</h4>
+            <div class="icons">
+              <img class="insta" src="./images/instagram.png" width="20vh" />
+              <img class="twit" src="./images/twitter.png" width="20vh" />
+              <img class="yt" src="./images/youtube.png" width="20vh" />
+              <img class="tt" src="./images/tiktok.png" width="20vh" />
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <h4>About</h4>
+          <a href="about.html" class="">About Us</a>
+        </div>
+        <div class="col">
+          <h4>My Account</h4>
+          <a href="cart.html" class="">My Cart</a>
+        </div>
+        
+        <div class="payment">
+          <p>Get more discounts paying with our partners!</p>
+          <img src="./images/ovo.png" alt="">
+          <img src="./images/gopay.png" alt="">
+        </div>
+        
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>

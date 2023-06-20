@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vorskins | Skin Care E-commerce</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="./product.js"></script>
+    <section id="header">
+      <a href="#">
+        <img src="./images/logo.png" width="50vw" class="logo" />
+      </a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+          <li><a class="active" href="product.html">Products</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+          <li id="lg-bag">
+            <a href=""><img src="./images/cart-shopping.png" width="20wh" /></a>
+          </li>
+          <a id="close">X</a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a id=""><img src="./images/cart-shopping.png" width="15wh" /></a>
+        <a id="bar"><img src="./images/outdent.png" width="15vw" /></a>
+      </div>
+    </section>
+
+    <section id="page-header">
+    </section>
+
+    <section id="product" class="sectp1">
+      <h2>All Products</h2>
+      <div class="categories">
+        <h2 class="text1">Categories</h2>
+        <button id="enter1" class="pickcate" onclick="change(0)">All</button>
+        <button id="enter2" class="pickcate" onclick="change(1)">Body Product</button>
+        <button id="enter3" class="pickcate" onclick="change(2)">Skin & Face Products</button>
+      </div>
+      <div class="prod-container">
+        <div class="prod" id="item1">
+          <img src="images/prod1.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Bath Salt</h5>
+            <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$25</h4>
+            <button class="normal" onclick="checkout()"id="myBtn9">Buy now</button>
+          </div>
+        </div>
+        <div class="prod" id="item2">
+          <img src="images/prod2.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>The Glowing Package</h5>
+            <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$50</h4>
+          </div>
+                      <button class="normal" onclick="checkout()"id="myBtn10" onclick="display()">Buy now</button>
+
+        </div>
+        <div class="prod" id="item3">
+          <img src="images/prod3.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Sunscreen</h5>
+            <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$10</h4>
+          </div>
+                      <button class="normal" onclick="checkout()"id="myBtn11">Buy now</button>
+
+        </div>
+        <div class="prod" id="item4">
+          <img src="images/prod4.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Facial Cream</h5>
+            <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$25</h4>
+          </div>
+          <button class="normal" onclick="checkout()"id="myBtn12">Buy now</button>
+
+        </div>
+        <div class="prod" id="item5">
+          <img src="images/prod5.jpg" />
+          <div class="desc">
+            <span>VOrskins | The Unordinary Series</span>
+            <h5>Toning Solution</h5>
+            <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$25</h4>
+          </div>
+          <button class="normal" onclick="checkout()"id="myBtn13">Buy now</button>
+
+        </div>
+        <div class="prod" id="item6">
+          <img src="images/prod6.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Body Wash</h5>
+            <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$30</h4>
+          </div>
+                      <button class="normal" onclick="checkout()"id="myBtn14">Buy now</button>
+
+        </div>
+        <div class="prod" id="item7">
+          <img src="images/prod7.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Moisturizing Cream</h5>
+                        <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$25</h4>
+          </div>
+           <button class="normal" onclick="checkout()"id="myBtn15">Buy now</button>
+
+        </div>
+        <div class="prod" id="item8">
+          <img src="images/prod8.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Body Scrub</h5>
+                        <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$30</h4>
+          </div>
+                      <button class="normal" onclick="checkout()"id="myBtn16">Buy now</button>
+
+        </div>
+        <div class="prod" id="item9">
+          <img src="images/prod9.png" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Makeup & Face Cleaner</h5>
+                        <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$8</h4>
+          </div>
+                      <button class="normal" onclick="checkout()"id="myBtn17">Buy now</button>
+
+        </div>
+        <div class="prod" id="item10">
+          <img src="images/prod10.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Acne Control Cleanser</h5>
+                        <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$18</h4>
+          </div>
+                      <button class="normal" onclick="checkout()"id="myBtn18">Buy now</button>
+
+        </div>
+        <div class="prod" id="item11">
+          <img src="images/prod11.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>Facial Serum</h5>
+                        <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$15</h4>
+          </div>
+                      <button class="normal" onclick="checkout()"id="myBtn19">Buy now</button>
+
+        </div>
+        <div class="prod" id="item12">
+          <img src="images/prod12.jpg" />
+          <div class="desc">
+            <span>VOrskins</span>
+            <h5>2 Stage Body Serum & Cleanser</h5>
+                        <p>VOrskins brand product</p>
+
+            <div class="stars">
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+              <i><img src="images/star.png"   /> </i>
+            </div>
+            <h4>$50</h4>
+          </div>
+          <button class="normal" onclick="checkout()"id="myBtn20">Buy now</button>
+
+        </div>
+      </div>
+    </section>
+    
+        
+        
+    <section id="pages" class="sectp1">
+      <a href="#">1</a>
+    </section>
+
+    <footer class="foot-p1">
+      <div class="coll">
+        <img class="logofoot" src="./images/logo.png" width="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Kav 21, Alam Sutera Jalan Jalur Sutera Barat
+        </p>
+        <p><strong>Phone:</strong> +62 271 4928490</p>
+        <div class="social">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <img class="insta" src="./images/instagram.png" width="20vh" />
+            <img class="twit" src="./images/twitter.png" width="20vh" />
+            <img class="yt" src="./images/youtube.png" width="20vh" />
+            <img class="tt" src="./images/tiktok.png" width="20vh" />
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html" class="">About Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="cart.html" class="">My Cart</a>
+      </div>
+      
+      <div class="payment">
+        <p>Get more discounts paying with our partners!</p>
+        <img src="./images/ovo.png" alt="">
+        <img src="./images/gopay.png" alt="">
+      </div>
+      
+    </footer>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Thank You for subscribing VOrskins!</p>
+        <button class="normal" onclick="checkout()"id="backhome">Back to home</button>
+      </div>
+    
+  </body>
+  <script src="script.js"></script>
+</html>
