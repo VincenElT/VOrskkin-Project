@@ -1,5 +1,8 @@
-Site for Vorskin Beauty
-This is a straightforward prototype website for Vorskin Beauty that was made with JavaScript, CSS, and plain HTML. The website offers details about the brand and displays a variety of cosmetics.
+
+
+# Prototype for Vorskins
+
+This is a straightforward prototype website for Vorskins that was made with JavaScript, CSS, and plain HTML. The website offers details about the brand and displays a variety of cosmetics.
 
 Technologies Used
 HTML: The format and information on web pages.
